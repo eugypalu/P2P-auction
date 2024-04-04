@@ -1,0 +1,25 @@
+{
+  "name": "auction",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest --runInBand",
+    "start": "node src/peer/peer.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hyperswarm/rpc": "^3.3.2",
+    "hyperbee": "^2.19.0",
+    "hypercore": "^10.36.0",
+    "hyperswarm": "^4.7.14"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.24.4",
+    "babel-jest": "^29.7.0",
+    "jest": "^29.7.0",
+    "jest-serial-runner": "^1.2.1"
+  }
+}
